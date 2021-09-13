@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(23, 23, 23);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+#footer {
+  font-size: smaller;
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+
+.desk {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .mob {
+    display: none;
+  }
+  .desk {
+    display: block;
+  }
+}
+
+.modal-body {
+  margin: auto;
+  text-align: center;
+}
+
+.desktopModalBody {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
